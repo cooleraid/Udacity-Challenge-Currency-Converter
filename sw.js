@@ -4,10 +4,9 @@ const cacheName = 'cache-v1';
 
 const filesToCache = [
   './index.html',
-  './assets/css/styles.min.css',
-  './public/css/styles.min.css.map',
-  './public/js/app.min.js',
-  './public/js/app.min.js.map',
+  './assets/bootstrap/css/bootstrap.min.css',
+  './assets/bootstrap/js/bootstrap.min.js',
+  './assets/js/app.js',,
 ];
 
 self.addEventListener('install', e => {
